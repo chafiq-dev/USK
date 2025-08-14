@@ -1,10 +1,10 @@
 # USK – USB Security Key  
 **A plug‑and‑play, hardware‑tied encrypted key for Linux**  
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/chafiq-dev/usk?style=flat-square)
-![GitHub License](https://img.shields.io/github/license/chafiq-dev/usk?style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/chafiq-dev/usk?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/chafiq-dev/usk?style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/chafiq-dev/USK?style=flat-square)
+![GitHub License](https://img.shields.io/github/license/chafiq-dev/USK?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/chafiq-dev/USK?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/chafiq-dev/USK?style=flat-square)
 
 ---  
 
