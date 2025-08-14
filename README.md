@@ -8,10 +8,6 @@
 
 ---  
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/chafiq-dev/usk/main/assets/lock.svg" width="200" alt="USK logo">
-</p>
-
 ## 📖 Overview  
 
 USK (USB Security Key) automates the creation of an **encrypted container** stored on any USB thumb‑drive and mounts it **only on a specific machine**. It uses the motherboard’s UUID as the pass‑phrase, so even if the USB is stolen it remains useless without the originating host.
