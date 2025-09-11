@@ -1,10 +1,10 @@
 # USK – USB Security Key  
 **A plug‑and‑play, hardware‑tied encrypted key for Linux**  
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/chafiq-dev/USK?style=flat-square)
-![GitHub License](https://img.shields.io/github/license/chafiq-dev/USK?style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/chafiq-dev/USK?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/chafiq-dev/USK?style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/piratheon/USK?style=flat-square)
+![GitHub License](https://img.shields.io/github/license/piratheon/USK?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/piratheon/USK?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/piratheon/USK?style=flat-square)
 
 ---  
 
@@ -71,7 +71,7 @@ sudo pacman -S cryptsetup dmidecode
 
 ```bash
 # Download the installer & run it with the '--install' flag
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/chafiq-dev/usk/main/usk.sh) --install
+sudo bash <(curl -fsSL https://raw.githubusercontent.com/piratheon/usk/main/usk.sh) --install
 ```
 
 What this does:
@@ -83,7 +83,7 @@ What this does:
 
 > **Security tip** – If you prefer to *review* before executing, you can fetch the script to a file first:  
 > ```bash
-> curl -fsSL -o usk.sh https://raw.githubusercontent.com/chafiq-dev/usk/main/usk.sh
+> curl -fsSL -o usk.sh https://raw.githubusercontent.com/piratheon/usk/main/usk.sh
 > less usk.sh            # inspect
 > sudo bash usk.sh --install
 > ```
@@ -92,7 +92,7 @@ What this does:
 
 ```bash
 # Run the same script with the '--create-key' flag
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/chafiq-dev/usk/main/usk.sh) --create-key
+sudo bash <(curl -fsSL https://raw.githubusercontent.com/piratheon/usk/main/usk.sh) --create-key
 ```
 
 The script will:
@@ -153,7 +153,7 @@ sudo /usr/local/bin/usk_deactivate.sh
 
 ```bash
 # One‑liner to clean everything
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/chafiq-dev/usk/main/usk_uninstall.sh)
+sudo bash <(curl -fsSL https://raw.githubusercontent.com/piratheon/usk/main/usk_uninstall.sh)
 ```
 
 `usk_uninstall.sh` removes the scripts, the udev rule, and reloads udev. It **does not** delete your `virtual_key.img` file – you keep the encrypted container for future use.
@@ -204,7 +204,7 @@ Because the UUID is tied to the **physical motherboard**, cloning the USB to ano
 
 We love contributions!  
 
-1. Fork the repo (`https://github.com/chafiq-dev/usk`).  
+1. Fork the repo (`https://github.com/piratheon/usk`).  
 2. Create a feature branch (`git checkout -b my‑feature`).  
 3. Make your changes, write tests (if applicable) and commit.  
 4. Open a Pull Request with a clear description.  
@@ -216,7 +216,7 @@ We love contributions!
 
 ```text
 GNU GENERAL PUBLIC LICENSE, Version 3
-© 2025 chafiq-dev
+© 2025 piratheon
 ```
 
 Feel free to use, modify, and distribute USK as you see fit. Attribution is appreciated but not required.
@@ -233,7 +233,7 @@ Feel free to use, modify, and distribute USK as you see fit. Attribution is appr
 
 ## 📧 Contact  
 
-- **GitHub:** <https://github.com/chafiq-dev/usk>  
-- **Issues:** <https://github.com/chafiq-dev/usk/issues>  
+- **GitHub:** <https://github.com/piratheon/usk>  
+- **Issues:** <https://github.com/piratheon/usk/issues>  
 
 *Your security is only as good as the key you trust – let USK be that key.*  
